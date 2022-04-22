@@ -16,6 +16,8 @@ namespace OnMyWay2.Models
 			new SqlConnection
 			("Data Source = WIN-HQ8EO8P8GBF; Initial Catalog = OnMyWay; Integrated Security=true");
 
+		// new database set on server
+
 
 
 
