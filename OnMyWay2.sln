@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29409.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnMyWay2", "OnMyWay2\OnMyWay2.csproj", "{D9299175-1359-41BF-87F0-CEC6E997481C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9299175-1359-41BF-87F0-CEC6E997481C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9299175-1359-41BF-87F0-CEC6E997481C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9299175-1359-41BF-87F0-CEC6E997481C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9299175-1359-41BF-87F0-CEC6E997481C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A917742D-F8EF-4C1E-9D9D-7D417CCE06A0}
+	EndGlobalSection
+EndGlobal
