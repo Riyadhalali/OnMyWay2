@@ -70,7 +70,7 @@ namespace OnMyWay2.Controllers
                    // convert.Base64ToImage(photo).Save(Server.MapPath("~/users/" + username + ".jpg"));
 
                     sql = "insert into Users (user_name,user_phone,user_gender,user_password,user_photo) values" +
-                           " ('" + username + "','" + phone + "','" + gender + "','" + password + "','" + username + ".jpg"+"')";
+                           " ('" + username + "','" + phone + "','" + gender + "','" + password + "','" + photo + ".jpg"+"')";
 
                     // Image1.ImageUrl = "~/Images/Hello.jpg";
 
@@ -121,7 +121,7 @@ namespace OnMyWay2.Controllers
             catch (Exception ex)
             {
                 db.conn.Close();
-                mess = " Data Incorrect ";
+                mess = " Data Incorrect please check connection ";
             }
             var jsonData = new
             {
@@ -627,7 +627,7 @@ namespace OnMyWay2.Controllers
             Context.Response.Write(sr.Serialize(jsonData));
         }
 
-        [WebMethod(MessageName = "Get_Version", Description = "this method To Get_Version")]
+        [WebMethod(MessageName = "Get_Version", Description = "this method To Get_Version of the app")]
         [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
         public void Get_Version()
         {
